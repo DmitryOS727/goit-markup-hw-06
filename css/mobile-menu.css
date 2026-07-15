@@ -130,11 +130,6 @@
   fill: #f4f4fd;
 }
 
-@media screen and (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
-
 .mobile-menu-open {
   display: flex;
   align-items: center;
@@ -156,8 +151,9 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  .mobile-menu,
   .mobile-menu-open {
     display: none;
   }
-}
 }
