@@ -91,8 +91,8 @@
 
 .mobile-menu-phone {
   font-weight: 500;
-  font-size: clamp(24px, 8vw, 36px);
-  line-height: 1.11;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #4d5ae5;
 }
@@ -127,6 +127,8 @@
 }
 
 .mobile-menu-social-link svg {
+  width: 24px;
+  height: 24px;
   fill: #f4f4fd;
 }
 
@@ -151,7 +153,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .mobile-menu,
   .mobile-menu-open {
     display: none;

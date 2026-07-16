@@ -203,6 +203,9 @@
 
   .footer-social {
     width: auto;
-    margin-right: 80px;
+  }
+
+  .footer-subscribe {
+    margin-left: auto;
   }
 }
