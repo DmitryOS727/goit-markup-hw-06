@@ -31,7 +31,32 @@
   display: none;
 }
 
+.mobile-menu-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  padding: 0;
+  border: none;
+  color: #2f2f37;
+  background-color: transparent;
+}
+
+.mobile-menu-open-icon {
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
 @media screen and (min-width: 768px) {
+  .mobile-menu-open {
+    display: none;
+  }
+
   .header-logo {
     margin-right: 120px;
     padding: 24px 0;
